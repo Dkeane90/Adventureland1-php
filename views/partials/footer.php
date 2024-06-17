@@ -49,7 +49,7 @@
                 <div class="mr-8">
                     <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 
-                        AdventureLand Theme Park
+                        About AdventureLand <br>Theme Park
                     </h6>
                     <p>
                         From single-day adventures to <br> weekend getaways, AdventureLand Theme Park has been the place for great family escapes for over 15 years. With uniquely themed attractions of all shapes and sizes, Negril's first amusement park offers endless fun for everyone. Fill your day with surprises at the one park where the smiles are bigger, the laughs last longer and the memories are forever.
@@ -115,6 +115,11 @@
                         </span>
                         + 1 876 888 0000
                     </p>
+
+                    <div class="overflow-hidden w-60 h-40">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.388372270142!2d-78.3357741!3d18.329558100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ed90c8b20d448d5%3A0x9883393063ec7c59!2sKool%20Runnings%20Waterpark!5e0!3m2!1sen!2sjm!4v1718663760576!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p>Visit us today!</p>
 
                 </div>
             </div>

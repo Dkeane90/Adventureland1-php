@@ -1,12 +1,13 @@
 <?php
 require "partials/head.php";
 require "partials/navbar.php";
+// require ".././database.php";
 
 
-session_start();
 
-$mysqli = require "../database.php";
-$sql =  "SELECT package, code, price FROM products";
+
+$mysqli = require ".././database.php";
+$sql =  "SELECT package, code, price, subtotal, Total FROM products";
 $result = mysqli_query($mysqli, $sql);
 $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
@@ -18,14 +19,8 @@ $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 
 <div class="flex flex-col min-h-screen items-center justify-center">
-  <?php
-  if (isset($_SESSION["cart_item"])) {
-    $total_quantity = 0;
-    $total_price = 0;
-  }
 
 
-  ?>
 
   <div class="bg-slate-100 w-full flex flex-col items-center justify-center mb-16 mt-10 py-8">
     <h3 class="font-bold text-black text-3xl">Your Cart</h3>
