@@ -52,7 +52,7 @@ require "partials/navbar.php";
                     <img alt="lazy river with tubes" class="block h-full w-full rounded-lg object-cover object-center hover:scale-105 duration 200" src=" ../public/images/lazy-river.jpg" />
                 </div>
             </div>
-            <a href="cart.view.php" class=" flex items-center justify-center bg-yellow-500 p-4 mb-8 rounded-lg w-full hover:scale-105 duration 200 hover:bg-yellow-300">
+            <a href="https://buy.stripe.com/test_6oEbMPegffVUfu0288" class=" flex items-center justify-center bg-yellow-500 p-4 mb-8 rounded-lg w-full hover:scale-105 duration 200 hover:bg-yellow-300">
                 <div>
                     <h3 class="text-xl font-bold">Book Today</h3>
                 </div>
