@@ -13,12 +13,19 @@ session_start();
             <a href="../views/kiddies.view.php" class="font-bold hover:scale-105 duration 200 hover:underline">Kiddies Place</a>
             <a href="../views/family.view.php" class="font-bold hover:scale-105 duration 200 hover:underline">Family Affair</a>
             <a href="" class="font-bold hover:scale-105 duration 200 hover:underline">Book A Date</a>
+            <?php if (isset($_SESSION["user_id"]) && $_SESSION["user_id"]) : ?>
+                <a href="../views/logout.php" class="font-bold hover:scale-105 duration 200 hover:underline">
+                    Logout
+
+                </a>
+            <?php else : ?>
+                <a href="../views/login.view.php" class="font-bold hover:scale-105 duration 200 hover:underline">
+                    Login
+
+                </a>
+            <?php endif; ?>
 
 
-            <a href="../views/login.view.php" class="font-bold hover:scale-105 duration 200 hover:underline">
-                Login
-
-            </a>
 
             <a href="https://buy.stripe.com/test_6oEbMPegffVUfu0288">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
